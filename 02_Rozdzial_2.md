@@ -685,7 +685,7 @@ first(tylkoCorsa,6)
 ```julia
 trzyKolumny = @select(auta, :Marka, :Model, :Cena);
 
-julia> first(trzyKolumny,6)
+first(trzyKolumny,6)
 6×3 DataFrame
  Row │ Marka    Model   Cena    
      │ String   String  Float64 
@@ -1057,7 +1057,7 @@ select(df, :daty => ByRow(x -> split(x,"-")) => [:rok, :miesiac, :dzien],:id)
    4 │ 2010       03         03             4
 ```
 
-## 2.6. Jak wczytać i zpisać dane w różnych formatach
+## 2.6. Jak wczytać i zapisać dane w różnych formatach
 
 ### 2.6.1. Wczytywanie danych z pakietów
 
