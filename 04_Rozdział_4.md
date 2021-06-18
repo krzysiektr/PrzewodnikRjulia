@@ -1889,7 +1889,7 @@ plot!(last.(conf),color=:red,ls=:dash)
 savefig("/home/.../assets/p461.png")
 ```
 ![](/assets/p461.png)
-```
+
 
 ### 4.6.2. Model Coxa
 
