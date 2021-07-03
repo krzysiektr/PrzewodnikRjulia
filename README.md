@@ -8,6 +8,7 @@ Spis treści
 1. [Rozdział 1. Wprowadzenie](01_Rozdzial_1.md)
 2. [Rozdział 2. Podstawy pracy z R](02_Rozdzial_2.md)
 3. [Rozdział 4. Niezbędnik statystyka](04_Rozdział_4.md)
+4. [Rozdział 5. Graficzna prezentacja danych](05_Rozdzial_5.md)
 
 ```julia
 versioninfo()
