@@ -19,7 +19,7 @@ using TableScraper, Tables, DataFrames
 
 url = "https://pl.wikipedia.org/wiki/Reprezentacja_Polski_w_pi%C5%82ce_no%C5%BCnej_m%C4%99%C5%BCczyzn"
 t = scrape_tables(url);
-d = t[69];
+d = t[60];
 nam = map(chomp,Tables.getcolumn(d, 2));
 col = [map(chomp,Tables.getcolumn(d, 1)[i]) for i in 1:32];
 v = vcat(col[5:32]);
