@@ -15,7 +15,7 @@ chop("Co jest supeR?", head = 12, tail = 1)
 ### 1.2.1. Przykład: Pozycja Polski w rankingu FIFA
 
 ```julia
-using TableScraper, Tables, DataFrames
+using TableScraper, DataFrames
 
 url = "https://pl.wikipedia.org/wiki/Reprezentacja_Polski_w_pi%C5%82ce_no%C5%BCnej_m%C4%99%C5%BCczyzn"
 t = scrape_tables(url);
